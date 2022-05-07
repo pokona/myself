@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+        height: 100vh;
+        background-color: antiquewhite;
+      }
+      /* {
+        border: 1px solid black;
+      }*/
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .shang {
+        flex-direction: column;
+      }
+      .ys {
+        background-color: beige;
+      }
+      .youju {
+        margin-right: 3px;
+      }
+      .yanse {
+        background-color: bisque;
+      }
+      .yanse1 {
+        background-color: blanchedalmond;
+      }
+      .yanse2 {
+        background-color: rgb(161, 244, 216);
+      }
+      .yanse3 {
+        background-color: white;
+      }
+      .xiaju {
+        margin-bottom: 3px;
+      }
+      .zj {
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <div style="width: 150px" class="flex shang">
+      <!--主区-->
+      <div
+        style="flex: 1; margin-bottom: 3px; text-align: center"
+        class="yanse3"
+      >
+        <img alt="我" src="me.jpg" height="70px" width="70px" />
+      </div>
+      <div style="flex: 7" class="yanse3"></div>
+    </div>
+    <!--内容区-->
+    <div class="flex1 flex shang">
+      <!--内容区上部-->
+      <div style="height: 70px" class="ys flex"></div>
+      <!--底部分区-->
+      <div class="flex flex1">
+        <!--zuo-->
+        <div style="flex: 3" class="flex shang">
+          <div style="height: 70px; margin: 3px" class="flex">
+            <!--sige-->
+            <div class="flex1 youju yanse3"><a href=""></a></div>
+            <div class="flex1 youju yanse3"></div>
+            <div class="flex1 youju yanse3"></div>
+            <div class="flex1 youju yanse3"></div>
+          </div>
+          <div class="flex shang" style="margin: 2px">
+            <div class="flex yanse3 xiaju" style="height: 200px"></div>
+            <div class="flex yanse3" style="height: 200px"></div>
+          </div>
+        </div>
+        <!--you-->
+        <div style="flex: 1" class="yanse3"></div>
+      </div>
+    </div>
+  </body>
+</html>
